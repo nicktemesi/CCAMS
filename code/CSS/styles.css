@@ -178,6 +178,7 @@ main{
 } */
 .icon_div{
     display: block;
+    position: relative;
     flex: .5;
     height: 70vh;
     margin-left: 5em;
@@ -188,6 +189,7 @@ main{
 }
 .actual_icon{
     width: 100px;
+    margin-left: 12px;
 }
 .grp_btn{
     font-size: 4rem;
@@ -267,6 +269,15 @@ p{
     font-weight: bold;
     color: black;
 }
+.icon_div_buttons{
+    display: block;
+    margin: 10px 0 10px 0;
+    border: 5px solid black;
+    background-color: #FFF6F9;
+}
+.icon_div_buttons:nth-child(1){
+    margin-top: 5px;
+}
 .for_hover{
     transition: 0.3s ease;
 }
@@ -289,8 +300,9 @@ p{
 .log_out{
     background-color: #FFBFFE;
     position: absolute;
-    margin-top: 20em; 
-    right: 60px;
+    top: 400px; 
+    right: 0;
+    width: 75px;
     
 }
 .has_acct{

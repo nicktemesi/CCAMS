@@ -288,6 +288,9 @@
                     <div class="icon_div">
                         <a href=""><img src="../Images used in project both design and actual web/messaging icon.png" alt="" class="actual_icon"></a>
                         <a href="log out page.php" class="index_button user_button log_out">Log Out</a>
+                        <a href ="" class = " icon_div_buttons index_button">Groups</a>
+                        <a href ="" class = " icon_div_buttons index_button">Events</a>
+                        <a href ="" class = " icon_div_buttons index_button">Group Admin</a>
                     </div>
                 </div>
             </div>
